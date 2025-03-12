@@ -5,27 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
-    "preview": "vite preview",
-    "start": "vite",
-    "test": "vitest",
-    "eject": "react-scripts eject",
-    "format": "prettier --write \"src/**/*.{ts,tsx,css,md}\""
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.3",
-    "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.15.11",
-    "@mui/material": "^5.15.11",
-    "@reduxjs/toolkit": "^2.6.1",
-    "axios": "^1.8.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-hook-form": "^7.54.2",
-    "react-redux": "^9.2.0",
-    "react-router-dom": "^7.3.0",
-    "recharts": "^2.15.1"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
